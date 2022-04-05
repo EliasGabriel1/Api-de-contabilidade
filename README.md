@@ -1,5 +1,7 @@
 ﻿# Api-de-contabilidade
 
+
+
 #Querys:
 
 
@@ -12,6 +14,7 @@ UPDATE caixa SET valor=500 WHERE nome="joao"
 DELETE FROM caixa where nome="joao"
 
 
+
 <!-- CLIENTE -->
 SELECT a.nome,a.valor from caixa a, cliente b where a.nome = b.nome and a.valor
 SELECT a.* from entrada a, cliente b where a.nome = b.nome and a.nome="Elias Gabriel"
@@ -19,6 +22,7 @@ SELECT user from cliente WHERE nome="Elias Gabriel"
 INSERT into cliente(nome,user) VALUES("BRUNO", "brunin")
 UPDATE cliente SET user="eliasgahh" WHERE nome="Elias Gabriel"
 DELETE from cliente where nome="BRUNO"
+
 
 
 <!-- ENTRADA -->
@@ -34,6 +38,7 @@ DELETE from entrada where produto="shampoo"
 DELETE from entrada where nome="bruno"
 
 
+
 <!-- SAIDAS -->
 SELECT nome,produto from saidas where valor< 800
 SELECT nome,produto from saidas where produto="shampoo"
@@ -42,6 +47,7 @@ INSERT into saidas(nome,produto,valor) VALUES("joao","shampoo",700)
 UPDATE saidas SET produto="sabonete" WHERE produto="shampoo"
 DELETE from saidas where nome="bruno"
 DELETE from saidas where produto="shampoo"
+
 
 
 <!-- PRODUTOS -->
