@@ -5,4 +5,4 @@ app.use(express.json())
 import router from "./routes.js";
 app.use(router);
 
-app.listen(3000, () => console.log("api rodando"))
+app.listen(3000, () => console.log("api rodando na porta: 3000"))
