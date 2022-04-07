@@ -42,7 +42,6 @@
 </br>SELECT nome,produto from saidas where valor< 800
 </br>SELECT nome,produto from saidas where produto="shampoo"
 </br>INSERT into saidas(nome,produto,valor) VALUES("bruno", "açucar",1500)
-</br>INSERT into saidas(nome,produto,valor) VALUES("joao","shampoo",700)
 </br>UPDATE saidas SET produto="sabonete" WHERE produto="shampoo"
 </br>DELETE from saidas where nome="bruno"
 </br>DELETE from saidas where produto="shampoo"
